@@ -8,22 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Hello! I am **Pengxiang Lan (兰鹏翔)**, a Ph.D. candidate in Computer Technology at the **School of Computer Science and Engineering, Northeastern University**, Shenyang, China. I am advised by **Prof. Hai Zhao** and **Prof. Guibing Guo**.
+Hello! I am **Pengxiang Lan (兰鹏翔)**, a Ph.D. student in Computer Technology at the **School of Computer Science and Engineering, Northeastern University**, Shenyang, China. I am advised by **Prof. Hai Zhao** and **Prof. Guibing Guo**.
 
 My research interests lie at the intersection of **recommender systems, large language models, and spatio-temporal intelligence**. In particular, I work on **next POI / next location recommendation, parameter-efficient fine-tuning (PEFT), knowledge editing, diffusion-based recommendation, and test-time adaptation**. My recent research explores how LLMs and generative models can better understand user mobility, recover incomplete behavioral signals, and model dynamic preferences under distribution shifts.
 
-<div style="margin: 10px 0 18px 0;">
-<a href="https://scholar.google.com/citations?user=JQGQ2z4AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
-<a href="https://dblp.org/pid/262/8712.html" target="_blank"><img src="https://img.shields.io/badge/DBLP-Profile-004F9F" alt="DBLP"></a>
+<div style="margin: 10px 0 18px 0; line-height: 2.0;">
+<a href="https://scholar.google.com/citations?user=ULw0mF0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+<a href="https://dblp.org/pid/329/5834.html" target="_blank"><img src="https://img.shields.io/badge/DBLP-Profile-004F9F" alt="DBLP"></a>
 <a href="https://github.com/LanPangxiang" target="_blank"><img src="https://img.shields.io/badge/GitHub-LanPangxiang-181717?logo=github&logoColor=white" alt="GitHub"></a>
 <a href="mailto:pengxianglan@stumail.neu.edu.cn"><img src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white" alt="Email"></a>
 </div>
@@ -41,16 +34,21 @@ I am always happy to discuss research ideas and potential collaborations. Please
 - *2025*: 🎉 **LAMP** was published at **NAACL 2025** (**Oral**).
 - *2025*: 🎉 Our lifelong knowledge editing work **KDE** was published at **ACL 2025**.
 - *2025*: 🎉 Our OOD recommendation work **CausalDiffRec** was published at **WWW 2025**.
-- *2025-2026*: 🏆 Awarded **Outstanding Graduate Student of Northeastern University**.
+- *2025–2026*: 🏆 Awarded **Outstanding Graduate Student of Northeastern University**.
 
 # 📝 Publications
 
-**Selected first-author / major-contribution publications are listed first.**  
-<sup>†</sup> indicates equal or major student contribution when applicable.
+Selected first-author and major-contribution publications are listed first.
 
 ### Selected First-Author Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGIR 2026</div><img src='images/500x300.png' alt="MPDC" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">SIGIR 2026</div>
+<div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#eef4ff,#dbe8ff); border-radius:4px; padding:18px; box-sizing:border-box;">
+<div style="font-size:30px; font-weight:700; letter-spacing:1px;">MPDC</div>
+<div style="font-size:13px; margin-top:8px;">Expected Location Preference<br/>for Next POI Recommendation</div>
+</div>
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations**  
@@ -62,7 +60,13 @@ We model authentic user mobility preferences from both behavioral and spatial pe
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL Findings 2026</div><img src='images/500x300.png' alt="LaMDA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">ACL Findings 2026</div>
+<div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#f3f1ff,#e7e2ff); border-radius:4px; padding:18px; box-sizing:border-box;">
+<div style="font-size:30px; font-weight:700; letter-spacing:1px;">LaMDA</div>
+<div style="font-size:13px; margin-top:8px;">LLM-Driven Multi-Perspective<br/>Location Completion</div>
+</div>
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction**  
@@ -74,7 +78,13 @@ We introduce an LLM-driven multi-perspective data augmentation framework that co
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2026</div><img src='images/500x300.png' alt="LCT3" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">ESWA 2026</div>
+<div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#edf8f3,#dcefe7); border-radius:4px; padding:18px; box-sizing:border-box;">
+<div style="font-size:30px; font-weight:700; letter-spacing:1px;">LCT³</div>
+<div style="font-size:13px; margin-top:8px;">Location Completion +<br/>Test-Time Training</div>
+</div>
+</div></div>
 <div class='paper-box-text' markdown="1">
 
 **LLM-Driven Location Completion and Test-Time Training for Next Location Prediction**  
@@ -113,7 +123,7 @@ This work extends LLM-based location completion with collaborative test-time tra
 
 # 🔬 Research Interests
 
-- **Next POI / Next Location Recommendation** — user mobility modeling, incomplete check-in recovery, spatial-temporal preference learning.
+- **Next POI / Next Location Recommendation** — user mobility modeling, incomplete check-in recovery, spatio-temporal preference learning.
 - **Large Language Models for Recommendation** — LLM agents, semantic spatial reasoning, personalized behavior modeling.
 - **Parameter-Efficient Fine-Tuning** — prompt tuning, low-rank parameterization, efficient adaptation of large models.
 - **Knowledge Editing** — lifelong editing, interference mitigation, continual knowledge updates.
