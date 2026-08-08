@@ -12,40 +12,46 @@ redirect_from:
 
 Hello! I am **Pengxiang Lan (兰鹏翔)**, a Ph.D. student in Computer Technology at the **School of Computer Science and Engineering, Northeastern University**, Shenyang, China. I am advised by **Prof. Hai Zhao** and **Prof. Guibing Guo**.
 
-My research interests lie at the intersection of **recommender systems, large language models, and spatio-temporal intelligence**. In particular, I work on **next POI / next location recommendation, parameter-efficient fine-tuning (PEFT), knowledge editing, diffusion-based recommendation, and test-time adaptation**. My recent research explores how LLMs and generative models can better understand user mobility, recover incomplete behavioral signals, and model dynamic preferences under distribution shifts.
+My research lies at the intersection of **recommender systems, large language models, and spatio-temporal intelligence**. I am particularly interested in **next POI / next location recommendation, parameter-efficient fine-tuning (PEFT), knowledge editing, generative recommendation, and test-time adaptation**. My recent work studies how LLMs and generative models can better understand user mobility, recover incomplete behavioral signals, and model dynamic preferences under distribution shifts.
 
-<div style="margin: 10px 0 18px 0; line-height: 2.0;">
+My research has appeared in venues including **SIGIR, ACL, AAAI, NAACL, WWW, DASFAA, ICWS**, and **Expert Systems with Applications (ESWA)**.
+
+<div style="margin: 12px 0 14px 0; line-height: 2.0;">
 <a href="https://scholar.google.com/citations?user=ULw0mF0AAAAJ" target="_blank"><img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
 <a href="https://dblp.org/pid/329/5834.html" target="_blank"><img src="https://img.shields.io/badge/DBLP-Profile-004F9F" alt="DBLP"></a>
 <a href="https://github.com/LanPangxiang" target="_blank"><img src="https://img.shields.io/badge/GitHub-LanPangxiang-181717?logo=github&logoColor=white" alt="GitHub"></a>
 <a href="mailto:pengxianglan@stumail.neu.edu.cn"><img src="https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white" alt="Email"></a>
 </div>
 
+<div style="margin: 4px 0 20px 0;">
+<span style="display:inline-block; padding:4px 10px; margin:3px; border-radius:14px; background:#eef4ff;">Next POI Recommendation</span>
+<span style="display:inline-block; padding:4px 10px; margin:3px; border-radius:14px; background:#f3f1ff;">LLMs for Recommendation</span>
+<span style="display:inline-block; padding:4px 10px; margin:3px; border-radius:14px; background:#edf8f3;">PEFT</span>
+<span style="display:inline-block; padding:4px 10px; margin:3px; border-radius:14px; background:#fff3e8;">Knowledge Editing</span>
+<span style="display:inline-block; padding:4px 10px; margin:3px; border-radius:14px; background:#f9f0f5;">Test-Time Adaptation</span>
+</div>
+
 I am always happy to discuss research ideas and potential collaborations. Please feel free to contact me by email.
 
 # 🔥 News
 
-- *2026.07*: 🎉 Our paper **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations** was published at **SIGIR 2026** (**Oral / Full Paper**).
-- *2026.07*: 🎉 Our paper **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction** was published in **Findings of ACL 2026**.
-- *2026.02*: 🎉 Our LLM-driven location completion work was accepted by **Expert Systems with Applications (ESWA)**.
+- *2026.07*: 🎉 **MPDC** was published at **SIGIR 2026** as an **Oral / Full Paper**.
+- *2026.07*: 🎉 **LaMDA** was published in **Findings of ACL 2026**.
+- *2026.02*: 🎉 Our work on **LLM-driven location completion and test-time training** was accepted by **ESWA**.
 - *2026.02*: 🏅 Our patent on **LLM-driven multi-perspective POI completion** was granted.
 - *2025.11*: 🏅 Our patent on **multi-factor expected location preference modeling** was granted.
-- *2025*: 🎉 **EPT** was published at **AAAI 2025** (**Oral**).
-- *2025*: 🎉 **LAMP** was published at **NAACL 2025** (**Oral**).
-- *2025*: 🎉 Our lifelong knowledge editing work **KDE** was published at **ACL 2025**.
-- *2025*: 🎉 Our OOD recommendation work **CausalDiffRec** was published at **WWW 2025**.
+- *2025*: 🎉 **EPT** was published at **AAAI 2025** (**Oral**), and **LAMP** was published at **NAACL 2025** (**Oral**).
+- *2025*: 🎉 Our works on **lifelong knowledge editing** and **OOD recommendation** were published at **ACL 2025** and **WWW 2025**, respectively.
 - *2025–2026*: 🏆 Awarded **Outstanding Graduate Student of Northeastern University**.
 
-# 📝 Publications
+# 📝 Selected Publications
 
-Selected first-author and major-contribution publications are listed first.
-
-### Selected First-Author Publications
+<small>Selected first-author and major-contribution publications. **My name is highlighted in bold.**</small>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<div class="badge">SIGIR 2026</div>
+<div class="badge">SIGIR 2026 · Oral</div>
 <div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#eef4ff,#dbe8ff); border-radius:4px; padding:18px; box-sizing:border-box;">
-<div style="font-size:30px; font-weight:700; letter-spacing:1px;">MPDC</div>
+<div style="font-size:31px; font-weight:700; letter-spacing:1px;">MPDC</div>
 <div style="font-size:13px; margin-top:8px;">Expected Location Preference<br/>for Next POI Recommendation</div>
 </div>
 </div></div>
@@ -53,17 +59,17 @@ Selected first-author and major-contribution publications are listed first.
 
 **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations**  
 **Pengxiang Lan**, Enneng Yang, Yuliang Liang, Jianzhe Zhao, Guibing Guo, Hai Zhao  
-*The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026), pp. 869–880.* **Oral / Full Paper**  
-[[DOI]](https://doi.org/10.1145/3805712.3809685) [[SIGIR]](https://sigir2026.org/en-AU/pages/program/accepted-papers) [[Code]](https://github.com/LanPangxiang/LaMDA2026)
+*The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2026), 869–880.* **Oral / Full Paper**  
+[[DOI]](https://doi.org/10.1145/3805712.3809685) [[Program]](https://sigir2026.org/en-AU/pages/program/accepted-papers) [[Code]](https://github.com/LanPangxiang/LaMDA2026)
 
-We model authentic user mobility preferences from both behavioral and spatial perspectives, and further infer latent expected location preferences via diffusion-based contrastive learning.
+Models authentic mobility preferences from behavioral and spatial perspectives and infers latent expected location preferences through diffusion-based contrastive learning.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div class="badge">ACL Findings 2026</div>
 <div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#f3f1ff,#e7e2ff); border-radius:4px; padding:18px; box-sizing:border-box;">
-<div style="font-size:30px; font-weight:700; letter-spacing:1px;">LaMDA</div>
+<div style="font-size:31px; font-weight:700; letter-spacing:1px;">LaMDA</div>
 <div style="font-size:13px; margin-top:8px;">LLM-Driven Multi-Perspective<br/>Location Completion</div>
 </div>
 </div></div>
@@ -71,17 +77,17 @@ We model authentic user mobility preferences from both behavioral and spatial pe
 
 **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction**  
 **Pengxiang Lan**, Enneng Yang, Yuliang Liang, Jianzhe Zhao, Linying Jiang, Guibing Guo  
-*Findings of the Association for Computational Linguistics: ACL 2026, pp. 5406–5428.*  
-[[Paper]](https://aclanthology.org/2026.findings-acl.267/) [[PDF]](https://aclanthology.org/2026.findings-acl.267.pdf) [[DOI]](https://doi.org/10.18653/v1/2026.findings-acl.267)
+*Findings of the Association for Computational Linguistics: ACL 2026, 5406–5428.*  
+[[Paper]](https://aclanthology.org/2026.findings-acl.267/) [[PDF]](https://aclanthology.org/2026.findings-acl.267.pdf) [[DOI]](https://doi.org/10.18653/v1/2026.findings-acl.267) [[Code]](https://github.com/LanPangxiang/LaMDA2026)
 
-We introduce an LLM-driven multi-perspective data augmentation framework that converts coordinates into textual geographic descriptions and uses micro- and macro-level agents to complete incomplete mobility trajectories.
+Introduces dual LLM agents for micro- and macro-level mobility completion, with textual geographic descriptions, real-world candidate pools, and self-verification for reliable trajectory augmentation.
 </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
 <div class="badge">ESWA 2026</div>
 <div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#edf8f3,#dcefe7); border-radius:4px; padding:18px; box-sizing:border-box;">
-<div style="font-size:30px; font-weight:700; letter-spacing:1px;">LCT³</div>
+<div style="font-size:31px; font-weight:700; letter-spacing:1px;">LCT³</div>
 <div style="font-size:13px; margin-top:8px;">Location Completion +<br/>Test-Time Training</div>
 </div>
 </div></div>
@@ -91,25 +97,45 @@ We introduce an LLM-driven multi-perspective data augmentation framework that co
 **Pengxiang Lan**, Enneng Yang, Yuliang Liang, Jianzhe Zhao, Guibing Guo, Hai Zhao  
 *Expert Systems with Applications (ESWA), 2026.*  
 
-This work extends LLM-based location completion with collaborative test-time training to improve robustness under incomplete check-in records and distribution shifts.
+Extends LLM-based location completion with collaborative test-time training to improve robustness under incomplete check-in records and distribution shifts.
 </div>
 </div>
 
-- **[AAAI 2025, Oral]** **EPT: Efficient Prompt Tuning by Multi-Space Projection and Prompt Fusion.**  
-  **Pengxiang Lan**, Enneng Yang, Yuting Liu, Guibing Guo, Jianzhe Zhao, Xingwei Wang.  
-  [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34614) [[DOI]](https://doi.org/10.1609/aaai.v39i23.34614) [[arXiv]](https://arxiv.org/abs/2405.11464)
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">AAAI 2025 · Oral</div>
+<div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#fff3e8,#ffe4cc); border-radius:4px; padding:18px; box-sizing:border-box;">
+<div style="font-size:31px; font-weight:700; letter-spacing:1px;">EPT</div>
+<div style="font-size:13px; margin-top:8px;">Multi-Space Projection +<br/>Prompt Fusion</div>
+</div>
+</div></div>
+<div class='paper-box-text' markdown="1">
 
-- **[NAACL 2025, Oral]** **Efficient and Effective Prompt Tuning via Prompt Decomposition and Compressed Outer Product.**  
-  **Pengxiang Lan**, Haoyu Xu, Enneng Yang, Yuliang Liang, Guibing Guo, Jianzhe Zhao, Xingwei Wang.  
-  [[Paper]](https://aclanthology.org/2025.naacl-long.225/) [[PDF]](https://aclanthology.org/2025.naacl-long.225.pdf) [[arXiv]](https://arxiv.org/abs/2502.12200)
+**EPT: Efficient Prompt Tuning by Multi-Space Projection and Prompt Fusion**  
+**Pengxiang Lan**, Enneng Yang, Yuting Liu, Guibing Guo, Jianzhe Zhao, Xingwei Wang  
+*AAAI Conference on Artificial Intelligence (AAAI 2025), 24366–24374.* **Oral**  
+[[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/34614) [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/download/34614/36769) [[DOI]](https://doi.org/10.1609/aaai.v39i23.34614) [[arXiv]](https://arxiv.org/abs/2405.11464)
 
-- **[DASFAA 2023, Oral]** **Spatio-Temporal Position-Extended and Gated-Deep Network for Next POI Recommendation.**  
-  **Pengxiang Lan**, Yihao Zhang, Haoran Xiang, Yuhao Wang, Wei Zhou.  
-  [[DOI]](https://doi.org/10.1007/978-3-031-30672-3_34)
+Improves the efficiency and task adaptability of prompt tuning through low-rank prompt decomposition, multi-space projection, and adaptive prompt fusion.
+</div>
+</div>
 
-- **[ICWS 2022, Oral]** **Spatio-Temporal Mogrifier LSTM and Attention Network for Next POI Recommendation.**  
-  Yihao Zhang, **Pengxiang Lan**, Yuhao Wang, Haoran Xiang.  
-  [[DOI]](https://doi.org/10.1109/ICWS55610.2022.00019)
+<div class='paper-box'><div class='paper-box-image'><div>
+<div class="badge">NAACL 2025 · Oral</div>
+<div style="height:170px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#f9f0f5,#f2dfe9); border-radius:4px; padding:18px; box-sizing:border-box;">
+<div style="font-size:31px; font-weight:700; letter-spacing:1px;">LAMP</div>
+<div style="font-size:13px; margin-top:8px;">Prompt Decomposition +<br/>Compressed Outer Product</div>
+</div>
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+**Efficient and Effective Prompt Tuning via Prompt Decomposition and Compressed Outer Product**  
+**Pengxiang Lan**, Haoyu Xu, Enneng Yang, Yuliang Liang, Guibing Guo, Jianzhe Zhao, Xingwei Wang  
+*NAACL 2025, 4406–4421.* **Oral**  
+[[Paper]](https://aclanthology.org/2025.naacl-long.225/) [[PDF]](https://aclanthology.org/2025.naacl-long.225.pdf) [[DOI]](https://doi.org/10.18653/v1/2025.naacl-long.225) [[arXiv]](https://arxiv.org/abs/2502.12200)
+
+Reduces prompt tuning parameters through truncated-SVD prompt decomposition while using compressed outer products to strengthen interactions among prompt tokens.
+</div>
+</div>
 
 ### Other Publications
 
@@ -119,7 +145,15 @@ This work extends LLM-based location completion with collaborative test-time tra
 
 - **[WWW 2025]** **Graph Representation Learning via Causal Diffusion for Out-of-Distribution Recommendation.**  
   Chu Zhao, Enneng Yang, Yuliang Liang, **Pengxiang Lan**, Yuting Liu, Jianzhe Zhao, Guibing Guo, Xingwei Wang.  
-  [[DOI]](https://doi.org/10.1145/3696410.3714849) [[arXiv]](https://arxiv.org/abs/2408.00490)
+  [[DOI]](https://doi.org/10.1145/3696410.3714849) [[arXiv]](https://arxiv.org/abs/2408.00490) [[Code]](https://github.com/user683/CausalDiffRec)
+
+- **[DASFAA 2023, Oral]** **Spatio-Temporal Position-Extended and Gated-Deep Network for Next POI Recommendation.**  
+  **Pengxiang Lan**, Yihao Zhang, Haoran Xiang, Yuhao Wang, Wei Zhou.  
+  [[DOI]](https://doi.org/10.1007/978-3-031-30672-3_34)
+
+- **[ICWS 2022, Oral]** **Spatio-Temporal Mogrifier LSTM and Attention Network for Next POI Recommendation.**  
+  Yihao Zhang, **Pengxiang Lan**, Yuhao Wang, Haoran Xiang.  
+  [[DOI]](https://doi.org/10.1109/ICWS55610.2022.00019)
 
 # 🔬 Research Interests
 
@@ -127,7 +161,7 @@ This work extends LLM-based location completion with collaborative test-time tra
 - **Large Language Models for Recommendation** — LLM agents, semantic spatial reasoning, personalized behavior modeling.
 - **Parameter-Efficient Fine-Tuning** — prompt tuning, low-rank parameterization, efficient adaptation of large models.
 - **Knowledge Editing** — lifelong editing, interference mitigation, continual knowledge updates.
-- **Generative Recommendation & Test-Time Adaptation** — diffusion models, deterministic preference evolution, OOD robustness.
+- **Generative Recommendation & Test-Time Adaptation** — diffusion models, preference evolution, and OOD robustness.
 
 # 📖 Education
 
