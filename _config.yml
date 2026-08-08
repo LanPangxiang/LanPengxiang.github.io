@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Pengxiang Lan"
-description              : "Ph.D. student at Northeastern University. Research interests include recommender systems, large language models, parameter-efficient fine-tuning, data mining, and knowledge editing."
+description              : "Ph.D. Student at Northeastern University | Recommender Systems · Large Language Models · Spatio-Temporal Intelligence"
 repository               : "LanPangxiang/LanPengxiang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :
 author:
   name             : "Pengxiang Lan"
   avatar           : "https://avatars.githubusercontent.com/u/73155178?v=4"
-  bio              : "Ph.D. Student @ Northeastern University"
+  bio              : "Ph.D. Student in Computer Technology"
   location         : "Shenyang, China"
   employer         : "Northeastern University"
   pubmed           :
@@ -139,7 +139,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
