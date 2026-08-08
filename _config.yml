@@ -1,7 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
 title                    : "Pengxiang Lan"
 description              : "Ph.D. student at Northeastern University. Research interests include recommender systems, large language models, parameter-efficient fine-tuning, data mining, and knowledge editing."
 repository               : "LanPangxiang/LanPengxiang.github.io"
 google_scholar_stats_use_cdn : true
+
+# google analytics
+google_analytics_id      :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
 
 # Site Author
 author:
@@ -10,17 +26,43 @@ author:
   bio              : "Ph.D. Student @ Northeastern University"
   location         : "Shenyang, China"
   employer         : "Northeastern University"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=ULw0mF0AAAAJ"
   email            : "pengxianglan@stumail.neu.edu.cn"
+  researchgate     :
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
   github           : "LanPangxiang"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         :
   dblp             : "https://dblp.org/pid/329/5834.html"
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
 
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
-
 exclude:
   - docs
   - google_scholar_crawler
@@ -48,11 +90,9 @@ exclude:
   - package.json
   - tmp
   - vendor
-
 keep_files:
   - .git
   - .svn
-
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -63,6 +103,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -106,6 +147,7 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
