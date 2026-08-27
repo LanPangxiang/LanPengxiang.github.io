@@ -27,7 +27,7 @@ I am always happy to discuss research ideas and potential collaborations. Please
 
 - *2026.07*: 🎉 Our paper **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations** was published at **SIGIR 2026** (**Oral / Full Paper**).
 - *2026.07*: 🎉 Our paper **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction** was published in **Findings of ACL 2026**.
-- *2026.08.21*: 🎉 Our work on **LCT³** was accepted by **ESWA**.
+- *2026.8.21*: 🎉 Our work on **LCT³** was accepted by **ESWA**.
 - *2026.02*: 🏅 Our patent on **LLM-driven multi-perspective POI completion** was granted.
 - *2025.11*: 🏅 Our patent on **multi-factor expected location preference modeling** was granted.
 - *2025*: 🎉 **EPT** was published at **AAAI 2025** (**Oral**).
