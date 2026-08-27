@@ -25,7 +25,7 @@ I am always happy to discuss research ideas and potential collaborations. Please
 
 # 🔥 News
 
-- *2026.08*: 🎉 Our work on **LLM-Driven Location Completion and Test-Time Training for Next Location Prediction**  was accepted by **ESWA 2026**.
+- *2026.08*: 🎉 Our work **LLM-Driven Location Completion and Test-Time Training for Next Location Prediction** was accepted by **ESWA 2026**.
 - *2025–2026*: 🏆 Awarded **Outstanding Graduate Student of Northeastern University**.
 - *2026.04*: 🎉 Our paper **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction** was accepted by **Findings of ACL 2026**.
 - *2026.04*: 🎉 Our paper **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations** was accepted by **SIGIR 2026** (**Oral / Full Paper**).
