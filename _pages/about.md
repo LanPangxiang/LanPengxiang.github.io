@@ -25,16 +25,14 @@ I am always happy to discuss research ideas and potential collaborations. Please
 
 # 🔥 News
 
-- *2026.07*: 🎉 Our paper **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations** was published at **SIGIR 2026** (**Oral / Full Paper**).
-- *2026.07*: 🎉 Our paper **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction** was published in **Findings of ACL 2026**.
-- *2026.8.21*: 🎉 Our work on **LCT³** was accepted by **ESWA**.
-- *2026.02*: 🏅 Our patent on **LLM-driven multi-perspective POI completion** was granted.
-- *2025.11*: 🏅 Our patent on **multi-factor expected location preference modeling** was granted.
-- *2025*: 🎉 **EPT** was published at **AAAI 2025** (**Oral**).
-- *2025*: 🎉 **LAMP** was published at **NAACL 2025** (**Oral**).
-- *2025*: 🎉 Our lifelong knowledge editing work **KDE** was published at **ACL 2025**.
-- *2025*: 🎉 Our OOD recommendation work **CausalDiffRec** was published at **WWW 2025**.
+- *2026.08*: 🎉 Our work on **LLM-Driven Location Completion and Test-Time Training for Next Location Prediction**  was accepted by **ESWA 2026**.
 - *2025–2026*: 🏆 Awarded **Outstanding Graduate Student of Northeastern University**.
+- *2026.04*: 🎉 Our paper **LLM-Driven Multi-Perspective Location Completion for Next Location Prediction** was accepted by **Findings of ACL 2026**.
+- *2026.04*: 🎉 Our paper **Multi-Perspective Driven Expected Location Preferences for Next POI Recommendations** was accepted by **SIGIR 2026** (**Oral / Full Paper**).
+- *2025.05*: 🎉 Our lifelong knowledge editing work **Knowledge Decoupling via Orthogonal Projection for Lifelong Editing of Large Language Models.** was accepted by **ACL 2025**.
+- *2025.04*: 🎉 Our paper **Efficient and Effective Prompt Tuning via Prompt Decomposition and Compressed Outer Product.** was published at **NAACL 2025** (**Oral**).
+- *2025.04*: 🎉 Our OOD recommendation work **Graph Representation Learning via Causal Diffusion for Out-of-Distribution Recommendation.** was published at **WWW 2025**.
+- *2025.02*: 🎉 Our paper **EPT: Efficient Prompt Tuning by Multi-Space Projection and Prompt Fusion.**  was published at **AAAI 2025** (**Oral**).
 
 # 📝 Publications
 
